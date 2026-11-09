@@ -12,7 +12,7 @@ dp = Dispatcher()
 
 @dp.message(CommandStart())
 async def start(message: Message):
-    await message.answer("Привет! Я Шелли из Brawl Stars! 🔫")
+    await message.answer("Привет! Я Шелли из бравл старса хочешь попасть в наш мир? Тогда позвони на номер 117 и скажи что хочешь подписать контракт на СВО! (СВО - самый веселый округ) И завтра ты проснешься в мире бравл старса как мечтал встретишь Леона! Ждем тебя!")
 
 
 async def main():
